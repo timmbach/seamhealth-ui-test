@@ -76,3 +76,14 @@ body {
   border: none;
   border: 1px solid #8a6cc8;
 }
+.complaints-wrapper {
+  overflow-y: scroll;
+  box-sizing: border-box;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  height: max-content;
+  max-height: 70vh;
+}
+.complaints-wrapper::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
